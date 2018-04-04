@@ -27,6 +27,7 @@ krb5_store_password_if_offline = True
 default_shell = /bin/bash
 ldap_id_mapping = True
 fallback_homedir = <%= node['sssd']['basedir']%>/%u
+ad_gpo_access_control = <%= @ad_gpo_access_control %>
 
 ldap_user_ssh_public_key = sshPublicKey
 
