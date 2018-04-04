@@ -83,6 +83,13 @@ Launch, configure, and manage the SSSD service for communication with an AD back
     <td>The base directory under which users home directory should be created</td>
     <td><tt>/home</tt></td>
   </tr>
+  </tr>
+    <tr>
+    <td><tt>['sssd']['ad_gpo_access_control']</tt></td>
+    <td>String</td>
+    <td>Group Policy Access Control</td>
+    <td><tt>permissive</tt></td>
+  </tr>
 
 </table>
 
