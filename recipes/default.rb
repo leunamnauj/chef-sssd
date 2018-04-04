@@ -109,7 +109,8 @@ template '/etc/sssd/sssd.conf' do
   variables({
     :domain => node['sssd']['directory_name'],
     :realm => node['sssd']['directory_name'].upcase,
-    :enumerate => node['sssd']['enumerate']
+    :enumerate => node['sssd']['enumerate'],
+    :ad_gpo_access_control => node['sssd']['ad_gpo_access_control']
   })
 end
 

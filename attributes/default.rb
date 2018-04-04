@@ -24,3 +24,4 @@ default['sssd']['adcli']['rpm_source'] = "https://s3.amazonaws.com/public.localy
 
 default['sssd']['service_actions'] = [:enable]
 default['sssd']['basedir'] = '/home'
+default['sssd']['ad_gpo_access_control'] = 'permissive'
